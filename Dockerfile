@@ -1,4 +1,4 @@
-FROM debian:buster-20200414-slim
+FROM debian:stable-20210816-slim
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH /opt/conda/bin:$PATH
@@ -16,7 +16,6 @@ CMD ["colomoto-nb", "--NotebookApp.token="]
 ## distribution packages
 ##
 RUN apt-get update --fix-missing && \
-    mkdir /usr/share/man/man1 && touch /usr/share/man/man1/rmid.1.gz.dpkg-tmp && \
     apt-get install -y --no-install-recommends \
         bzip2 \
         ca-certificates \
