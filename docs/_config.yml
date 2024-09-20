@@ -1,0 +1,45 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: CoLoMoTo Docker distribution
+author: Consortium for Logical Models and Tools (CoLoMoTo) - <a href="http://colomoto.org">colomoto.org</a>
+copyright: "2024"
+
+only_build_toc_files: true
+exclude_patterns : [
+  '.github',
+  'docs/_build',
+  'usecases'
+]
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: 'off'
+
+# Add a bibtex file so that we can create citations
+#bibtex_bibfiles:
+#  - references.bib
+
+sphinx:
+  config:
+    html_context:
+      default_mode: light
+      github_user: colomoto
+      github_repo: colomoto-docker
+    html_theme_options:
+      home_page_in_toc: true
+      repository_url: https://github.com/colomoto/colomoto-docker
+      repository_branch: master
+      use_issues_button: true
+      use_fullscreen_button: false
+      use_repository_button: true
+      use_edit_page_button: true
+      logo:
+        image_light: docs/logo.png
+        image_dark: docs/logo-dark.png
+      analytics:
+        google_analytics_id: "G-5MF7X5EKXN"
+    html_static_path:
+      - "docs/logo.png"
+      - "docs/logo-dark.png"

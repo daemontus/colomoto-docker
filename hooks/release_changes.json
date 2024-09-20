@@ -1,8 +1,18 @@
 {
+    "biodivine_aeon": {
+        "name": "AEON.py",
+        "description": "Symbolic analysis (attractors, reachability) of (partially specified) Boolean networks",
+        "release_url": "https://github.com/sybila/biodivine-aeon-py/releases/"
+    },
     "bns": {
         "name": "BNS",
         "description": "Identification of synchronous attractors using SAT",
         "release_url": "https://people.kth.se/~dubrova/BNS/user_manual.html"
+    },
+    "bonesis": {
+        "name": "BoNesis",
+        "description": "Synthesis of Most Permissive Boolean Networks from network architecture and dynamical properties",
+        "release_url": "https://github.com/bnediction/bonesis/releases/tag/v{}"
     },
     "booleannet": {
         "name": "BooleanNet",
@@ -48,6 +58,11 @@
         "description": "CoLoMoTo Python module",
         "release_url": "https://github.com/colomoto/colomoto-jupyter/releases/tag/v{}"
     },
+    "erode-python": {
+        "name": "ERODE-Python",
+        "description": "Backward Boolean Equivalence Reduction of Boolean networks",
+        "release_url": "https://github.com/colomoto/ERODE-CoLoMoTo/releases/tag/v{}"
+    },
     "ginsim": {
         "name": "GINsim",
         "description": "Boolean and multi-valued network modelling",
@@ -72,6 +87,11 @@
         "name": "mpbn",
         "description": "Brief implementation of Most Permissive Boolean Networks",
         "release_url": "https://github.com/pauleve/mpbn/releases/tag/v{}"
+    },
+    "nordic": {
+        "name": "NORDic",
+        "description": "Network Oriented Repurposing of Drugs",
+        "release_url": "https://github.com/clreda/NORDic/releases/tag/v{}"
     },
     "nusmv": {
         "name": "NuSMV",
@@ -108,19 +128,19 @@
         "description": "Analysis and reconstruction of Boolean networks dynamics",
         "release_url": "https://cran.r-project.org/web/packages/BoolNet/index.html"
     },
-    "stablemotifs": {
-        "name": "StableMotifs",
-        "description": "Target-control of Boolean networks",
-        "release_url": "https://github.com/jgtz/StableMotifs"
-    },
-    "stablemotifs-python": {
-        "name": "StableMotifs-python",
-        "description": "Python interface to StableMotifs",
-        "release_url": "https://github.com/algorecell/StableMotifs-python/releases/tag/v{}"
+    "pystablemotifs": {
+        "name": "pystablemotifs",
+        "description": " A PyBoolNet implementation of stable motif algorithms, including oscillation checking. ",
+        "release_url": "https://github.com/jcrozum/pystablemotifs/"
     },
     "casq": {
         "name": "CaSQ",
         "description": "Convert static interaction maps into executable models",
         "release_url": "https://github.com/soli/casq"
+    },
+    "scboolseq": {
+        "name": "scBoolSeq",
+        "description": "scRNA-Seq data binarisation and synthetic generation from Boolean dynamics",
+        "release_url": "https://github.com/bnediction/scBoolSeq/releases/tag/v{}"
     }
 }

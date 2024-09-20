@@ -1,10 +1,13 @@
 {
-"pybuild": "py39",
+"pybuild": "py311",
 "channels": ["colomoto", "conda-forge"],
 "blacklist-dependencies": [],
 "skip-package-build": ["r-boolnet"],
 "blacklist-builds": ["^(py..)?mro"],
 "force-version": {
     "asprin": "3.1.1=py_0"
-}
+},
+"override": {
+    "clingo": { "channels": ["potassco"] },
+    "pint": { "channels": ["colomoto"] } }
 }
